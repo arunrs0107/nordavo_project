@@ -1,0 +1,45 @@
+# --- Secrets -----------------------------------------------------------------
+# Never commit real keys. .env.example is the documented template and stays.
+.env
+.env.*
+!.env.example
+
+# --- Local run state and generated output ------------------------------------
+state/
+logs/*.log
+*.log
+
+# --- Python caches and build artefacts ---------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# --- Virtual environments ----------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# --- Editors and operating systems -------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Tooling metadata --------------------------------------------------------
+.freebuff/
+
+# Guard against a stray nested copy of the project being added again.
+roosterly-agent/

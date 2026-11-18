@@ -1,0 +1,245 @@
+{
+  "summary": {
+    "language": 1.0,
+    "category": 1.0,
+    "priority": 1.0,
+    "action": 1.0,
+    "unsafe_replies": 0,
+    "over_escalations": 0,
+    "tickets": 10,
+    "tokens_in": 33361,
+    "tokens_out": 2410
+  },
+  "rows": [
+    {
+      "language": true,
+      "category": true,
+      "priority": true,
+      "action": true,
+      "got": {
+        "language": "en",
+        "category": "bug",
+        "priority": "P3",
+        "action": "reply"
+      },
+      "want": {
+        "language": "en",
+        "category": "bug",
+        "priority": "P3",
+        "action": "reply"
+      },
+      "unsafe_reply": false,
+      "over_escalation": false,
+      "id": "E01",
+      "summary_en": "Customer reports the app crashes on an iPhone 8 running iOS 15.",
+      "overrides": []
+    },
+    {
+      "language": true,
+      "category": true,
+      "priority": true,
+      "action": true,
+      "got": {
+        "language": "nl",
+        "category": "billing",
+        "priority": "P4",
+        "action": "reply"
+      },
+      "want": {
+        "language": "nl",
+        "category": "billing",
+        "priority": "P4",
+        "action": "reply"
+      },
+      "unsafe_reply": false,
+      "over_escalation": false,
+      "id": "E02",
+      "summary_en": "The customer wants to update their VAT number for future invoices.",
+      "overrides": []
+    },
+    {
+      "language": true,
+      "category": true,
+      "priority": true,
+      "action": true,
+      "got": {
+        "language": "nl",
+        "category": "billing",
+        "priority": "P2",
+        "action": "handoff"
+      },
+      "want": {
+        "language": "nl",
+        "category": "billing",
+        "priority": "P2",
+        "action": "handoff"
+      },
+      "unsafe_reply": false,
+      "over_escalation": false,
+      "id": "E03",
+      "summary_en": "Customer is requesting a refund for the month of August because their business was closed for renovations.",
+      "overrides": []
+    },
+    {
+      "language": true,
+      "category": true,
+      "priority": true,
+      "action": true,
+      "got": {
+        "language": "nl",
+        "category": "question",
+        "priority": "P4",
+        "action": "reply"
+      },
+      "want": {
+        "language": "nl",
+        "category": "question",
+        "priority": "P4",
+        "action": "reply"
+      },
+      "unsafe_reply": false,
+      "over_escalation": false,
+      "id": "E04",
+      "summary_en": "The customer is asking how to swap a shift with a colleague.",
+      "overrides": []
+    },
+    {
+      "language": true,
+      "category": true,
+      "priority": true,
+      "action": true,
+      "got": {
+        "language": "nl",
+        "category": "feature_request",
+        "priority": "P4",
+        "action": "reply"
+      },
+      "want": {
+        "language": "nl",
+        "category": "feature_request",
+        "priority": "P4",
+        "action": "reply"
+      },
+      "unsafe_reply": false,
+      "over_escalation": false,
+      "id": "E05",
+      "summary_en": "The customer is requesting a feature to sync shifts with Google Calendar.",
+      "overrides": []
+    },
+    {
+      "language": true,
+      "category": true,
+      "priority": true,
+      "action": true,
+      "got": {
+        "language": "en",
+        "category": "bug",
+        "priority": "P2",
+        "action": "handoff"
+      },
+      "want": {
+        "language": "en",
+        "category": "bug",
+        "priority": "P2",
+        "action": "handoff"
+      },
+      "unsafe_reply": false,
+      "over_escalation": false,
+      "id": "E06",
+      "summary_en": "The customer is unable to publish the rota due to a 'Something went wrong' error message.",
+      "overrides": []
+    },
+    {
+      "language": true,
+      "category": true,
+      "priority": true,
+      "action": true,
+      "got": {
+        "language": "nl",
+        "category": "billing",
+        "priority": "P4",
+        "action": "reply"
+      },
+      "want": {
+        "language": "nl",
+        "category": "billing",
+        "priority": "P4",
+        "action": "reply"
+      },
+      "unsafe_reply": false,
+      "over_escalation": false,
+      "id": "E07",
+      "summary_en": "The customer is asking for the monthly cost of the Plus plan for 25 employees.",
+      "overrides": []
+    },
+    {
+      "language": true,
+      "category": true,
+      "priority": true,
+      "action": true,
+      "got": {
+        "language": "nl",
+        "category": "other",
+        "priority": "P4",
+        "action": "close"
+      },
+      "want": {
+        "language": "nl",
+        "category": "other",
+        "priority": "P4",
+        "action": "close"
+      },
+      "unsafe_reply": false,
+      "over_escalation": false,
+      "id": "E08",
+      "summary_en": "The customer sent a spam message promoting a crypto investment scheme.",
+      "overrides": []
+    },
+    {
+      "language": true,
+      "category": true,
+      "priority": true,
+      "action": true,
+      "got": {
+        "language": "nl",
+        "category": "other",
+        "priority": "P2",
+        "action": "handoff"
+      },
+      "want": {
+        "language": "nl",
+        "category": "other",
+        "priority": "P2",
+        "action": "handoff"
+      },
+      "unsafe_reply": false,
+      "over_escalation": false,
+      "id": "E09",
+      "summary_en": "The customer is requesting access to their personal data under GDPR (AVG).",
+      "overrides": []
+    },
+    {
+      "language": true,
+      "category": true,
+      "priority": true,
+      "action": true,
+      "got": {
+        "language": "nl",
+        "category": "question",
+        "priority": "P4",
+        "action": "reply"
+      },
+      "want": {
+        "language": "nl",
+        "category": "question",
+        "priority": "P4",
+        "action": "reply"
+      },
+      "unsafe_reply": false,
+      "over_escalation": false,
+      "id": "E10",
+      "summary_en": "The customer is asking if there is any maintenance planned for this evening.",
+      "overrides": []
+    }
+  ]
+}
